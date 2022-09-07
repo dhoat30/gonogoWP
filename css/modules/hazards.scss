@@ -1,0 +1,133 @@
+.hazards-hero{
+    background-image: url('/images/hazards-risks-hero.png');
+}
+
+.hazards-first-section{
+    height: 464px;
+    .row-container{
+        .hazards-first-section-text{
+            width: 65%;
+            text-align: center;
+            h3{
+                color: #979A9D;
+                span{
+                    color: $darkBlue;
+                }
+            }
+        }
+    }
+}
+
+.hazards-second-section{
+    height: 936px;
+    background-color: $headerBG;
+    .row-container{
+        justify-content: space-evenly;
+        .hazards-second-section-text{
+            width: 40%;
+            h3{
+                color: $darkBlue;
+            }
+        }
+        .hazards-second-section-img{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .ellipse{
+                max-width: 760px;
+                max-height: 642px;
+                padding: 0 5%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            .laptop{
+                position: absolute;
+                top: 9%;
+                left: 0;
+                max-width: 760px;
+                max-height: 534px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
+
+.hazards-third-section{
+    height: 1048px;
+    .row-container{
+        flex-direction: column;
+        gap: 6%;
+        text-align: center;
+        .hazards-third-section-text{
+            width: 58%;
+            color: $darkBlue;
+        }
+    }
+}
+
+.hazards-fourth-section{
+    height: 942px;
+    background-color: $headerBG;
+    .row-container{
+        gap: 130px;
+        .hazards-fourth-section-text{
+            flex: 1;
+            h3{
+                color: $darkBlue;
+            }
+        }
+        .hazards-fourth-section-img{
+            position: relative;
+            display: flex;
+            margin-bottom: auto;
+            margin-top: 8%;
+            flex: 1;
+            justify-content: flex-end;
+            .lower-img{
+                img{
+                    width: 589px;
+                    height: 451px;
+                }
+            }
+            .upper-img{
+                position: absolute;
+                top: 54%;
+                right: 18%;
+                img{
+                    width: 589px;
+                    height: 451px;
+                }
+            }
+        }
+    }
+}
+
+.hazards-fifth-section{
+    height: 936px;
+    .row-container{
+        justify-content: space-evenly;
+        .hazards-fifth-section-text{
+            width: 40%;
+            h3{
+                color: $darkBlue;
+            }
+        }
+        .hazards-fifth-section-img{
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                max-width: 751px;
+                max-height: 575px;
+            }
+        }
+    }
+}

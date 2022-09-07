@@ -1,0 +1,46 @@
+.book-demo-hero{
+    height: 579px;
+    background: linear-gradient(180deg, #FF8B67 0%, #FB7F09 100%);
+    margin-bottom: 350px;
+    .row-container{
+        position: relative;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 10%;
+        gap: 6%;
+        text-align: center;
+        .book-demo-hero-text{
+            width: 54%;
+            color: $white;
+        }
+        .book-demo-form{
+            text-align: start;
+            background-color: $white;
+            position: absolute;
+            top: 65%;
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 1px 1px 10px 10px #0000011a;
+            .name, .credentials, .optional, .message{
+                display: flex;
+                gap: 20px;
+                margin-bottom: 15px;
+                input{
+                    padding: 10px;
+                }
+                textarea{
+                    resize: none;
+                }
+            }
+            .optional{
+                #meeting-time{
+                    padding: 10px 60px;
+                }
+            }
+        }
+    }
+}
+
+.contact-hero{
+    margin-bottom: 550px;
+}

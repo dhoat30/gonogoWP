@@ -1,0 +1,221 @@
+.issues-hero{
+    background-image: url('/images/issues-page-hero.png');
+}
+
+.issues-first-section{
+    height: 1255px;
+    background-color: $headerBG;
+    .row-container{
+        flex-direction: column;
+        gap: 6%;
+        text-align: center;
+        .issues-first-section-text{
+            width: 54%;
+            color: $darkBlue;
+        }
+    }
+}
+
+.issues-second-section{
+    height: 942px;
+    .row-container{
+        justify-content: space-evenly;
+        .issues-second-section-text{
+            width: 40%;
+            h3{
+                color: $darkBlue;
+            }
+        }
+        .issues-second-section-img{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .ellipse{
+                max-width: 760px;
+                max-height: 642px;
+                padding: 0 5%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            .laptop{
+                position: absolute;
+                top: 9%;
+                left: 0;
+                max-width: 760px;
+                max-height: 534px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
+
+.issues-third-section{
+    height: 936px;
+    background-color: $headerBG;
+    .row-container{
+        justify-content: space-evenly;
+        .issues-third-section-text{
+            width: 40%;
+            h3{
+                color: $darkBlue;
+            }
+        }
+        .issues-third-section-img{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .ellipse{
+                max-width: 760px;
+                max-height: 642px;
+                padding: 0 5%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            .laptop{
+                position: absolute;
+                top: 9%;
+                left: 0;
+                max-width: 760px;
+                max-height: 534px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
+
+.issues-fourth-section{
+    height: 942px;
+    .row-container{
+        gap: 130px;
+        .issues-fourth-section-text{
+            flex: 1;
+            h3{
+                color: $darkBlue;
+            }
+        }
+        .issues-fourth-section-img{
+            position: relative;
+            display: flex;
+            flex: 1;
+            margin-bottom: auto;
+            margin-top: 8%;
+            .lower-img{
+                img{
+                    width: 589px;
+                    height: 451px;
+                }
+            }
+            .upper-diagram{
+                position: absolute;
+                top: 55%;
+                left: 15%;
+                img{
+                    width: 589px;
+                    height: 451px;
+                }
+            }
+        }
+    }
+}
+
+.issues-fifth-section{
+    height: 818px;
+    background-color: $headerBG;
+    margin-bottom: 350px;
+    .row-container{
+        position: relative;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 5%;
+        gap: 6%;
+        text-align: center;
+        .issues-fifth-section-text{
+            width: 54%;
+            color: $darkBlue;
+        }
+        .issues-fifth-section-img{
+            position: absolute;
+            top: 43%;
+        }
+    }
+}
+
+.issues-sixth-section{
+    height: 926px;
+    background-color: $headerBG;
+    .row-container{
+        justify-content: space-evenly;
+        .issues-sixth-section-text{
+            width: 40%;
+            h3{
+                color: $darkBlue;
+            }
+        }
+        .issues-sixth-section-img{
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+.more-features-section{
+    height: 719px;
+    .row-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 0.4fr 0.6fr;
+        gap: 10px 60px;
+        h3{
+            grid-column: 1/4;
+        }
+        .more-features-card{
+            margin-bottom: auto;
+        }
+    }
+}
+
+.issues-still-thinking{
+    height: 1136px;
+    background-color: $headerBG;
+    .row-container{
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 5%;
+        gap: 6%;
+        text-align: center;
+        .issues-still-thinking-img{
+            position: relative;
+            svg{
+                position: absolute;
+                top: 40%;
+                left: 43%;
+            }
+        }
+        .issues-still-thinking-text{
+            width: 54%;
+            color: $darkBlue;
+            .issues-still-thinking-btn{
+                margin-top: 30px;
+            }
+        }
+    }
+}

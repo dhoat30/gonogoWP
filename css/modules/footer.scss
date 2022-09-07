@@ -1,0 +1,72 @@
+.site-footer{
+    height: 336.44px;
+    background-color: $footerBG;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    .footer_head_text{
+        font-weight: 700;
+        font-size: 0.9375rem;
+        line-height: 24px;
+        letter-spacing: -0.015em;
+        color: #053152;
+
+    }
+    .newsletter{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        .subscription-area{
+            position: relative;
+            input{
+                padding: 15px 165px 15px 10px;
+                border-radius: 50px;
+            }
+            button{
+                position: absolute;
+                right: 1.4%;
+                top: 9.5%;
+            }
+        }
+        .follow-us{
+            i{
+                margin-top: 10px;
+                background-color: #053152;
+                color: $white;
+                padding: 6.5px 5.5px;
+                border-radius: 50%;
+            }
+        }
+    }
+    .solutions, .links, .legal{
+        ul{
+            li{
+                list-style-type: none;
+                a{
+                    display: block;
+                    text-decoration: none;
+                    font-weight: 400;
+                    font-size: 0.9375rem;
+                    line-height: 24px;
+                    letter-spacing: -0.015em;
+                    color: #4A586A;
+                }
+            }
+        }
+    }
+}
+
+.copyright{
+    text-align: center;
+    padding: 7px;
+    background-color: $darkBlue;
+    .copyright-text{
+        p{
+            font-weight: 400;
+            font-size: 0.875rem;
+            line-height: 22px;
+            letter-spacing: -0.015em;
+            color: #FFFFFF;
+        }
+    }
+}

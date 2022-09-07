@@ -1,0 +1,42 @@
+.project-planner-hero{
+    background-image: url('/images/project-planner-hero.jpg');
+}
+
+.pp-first-section{
+    height: 464px;
+    background-color: $headerBG;
+    .row-container{
+        .pp-first-section-text{
+            width: 65%;
+            text-align: center;
+            h3{
+                color: #979A9D;
+                span{
+                    color: $darkBlue;
+                }
+            }
+        }
+    }
+}
+
+.pp-second-section{
+    height: 693px;
+    .row-container{
+        justify-content: space-evenly;
+        .pp-second-section-text{
+            width: 40%;
+            h3{
+                color: $darkBlue;
+            }
+        }
+        .pp-second-section-img{
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                max-width: 760px;
+                max-height: 385px;
+            }
+        }
+    }
+}
